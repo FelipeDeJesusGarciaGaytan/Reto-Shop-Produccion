@@ -38,6 +38,22 @@ const productos = [{
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTse8gMtYrx4xcC-W7uzE27AhyNJXErrKrUag&s",
     descripcion: "Mouse gamer Ground Gaming"
   },
+  {
+    id : 6,
+    nombre: "Macbook Pro 2023",
+    precio: 1000,
+    stock: 0,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTse8gMtYrx4xcC-W7uzE27AhyNJXErrKrUag&s",
+    descripcion: "Mouse gamer Ground Gaming"
+  },
+  {
+    id : 7,
+    nombre: "iPad",
+    precio: 10000,
+    stock: 0,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTse8gMtYrx4xcC-W7uzE27AhyNJXErrKrUag&s",
+    descripcion: "Mouse gamer Ground Gaming"
+  },
 ];
 
 const conReintentos = async (fn, intentos=3) => {
