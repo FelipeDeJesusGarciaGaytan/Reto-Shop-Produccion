@@ -1,0 +1,53 @@
+.boton {
+  padding: var(--space-sm) var(--space-lg);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+ 
+/* Variantes de color */
+.boton.primary {
+  background-color: var(--color-primary);
+  color: white; /* No existe una variable para blanco */
+}
+ 
+.boton.primary:hover {
+  background-color: var(--color-primary-dark);
+}
+ 
+.boton.secondary {
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+ 
+.boton.danger {
+  background-color: var(--color-danger);
+  color: white; /* No existe una variable para blanco */
+}
+ 
+/* Tamaños */
+.boton.pequeno {
+  padding: 6px 12px; /* No existen variables equivalentes para 6px y 12px */
+  font-size: var(--text-sm);
+}
+ 
+.boton.grande {
+  padding: var(--space-md) 32px; /* No existe una variable equivalente para 32px */
+  font-size: var(--text-lg);
+}
+ 
+/* Estado disabled */
+.boton:disabled {
+  background-color: #999 !important; /* No existe una variable para este color */
+  color: white; /* No existe una variable para blanco */
+  cursor: not-allowed;
+}
+
+.boton.activo {
+  background-color: var(--color-primary);
+  color: white; /* No existe una variable para blanco */
+}
