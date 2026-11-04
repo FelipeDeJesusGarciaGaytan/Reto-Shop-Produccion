@@ -50,10 +50,11 @@ onClick={handleAgregar()}
 
 
 const handleAgregarNombre = ((nombre) => {
-   
+
 })
 
-onClick={() => handleAgregarNombre(nombre="Quique")}
+onClick={() => handleAgregarNombre(nombre="Quique")
+}
 
 
 useEffect(() => {
